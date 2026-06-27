@@ -1,5 +1,5 @@
 # rect-use-hook
-React use() + Suspense data fetching example
+React typescript + new hook in react v19 
 
 
 
