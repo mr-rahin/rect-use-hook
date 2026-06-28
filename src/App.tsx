@@ -6,6 +6,7 @@ import Home from './useHookExam';
 import Example from './useHookExam2';
 import ActionExample from './useFormStatusExamp1';
 import UseFormStateExample from './useFormStateExam';
+import OptimisticExam from './useOptimisticExam';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Route path='/useExample' element={<Example />} />
       <Route path='/useFormStatusExample' element={<ActionExample />} />
       <Route path='/useFormStateExample' element={<UseFormStateExample />} />
+      <Route path='/OptimisticExam' element={<OptimisticExam />} />
     </Routes>
   )
 }
